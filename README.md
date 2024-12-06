@@ -36,5 +36,7 @@ dataset folders:
 To comprehensively evaluate and advance polyp analysis, we provide a benchmark encompassing both segmentation and detection tasks.
 ### Segmentation
 Our model was compared with nine previous models, including UNet, PSPNet, DeepLabV3+, MetaUnet, ColonGen, PolypPVT, Colonformer, TGANet, and LViT. The first version of our model achieved a 2.7% and 2.5% improvement in Dice and IoU scores, respectively, as presented in Table 2. When textual information was incorporated alongside images, Dice and IoU further improved by 0.7% and 0.5%, respectively. To comprehensively evaluate segmentation performance, we selected seven diverse samples from the dataset, encompassing polyps of various numbers, sizes, and shapes. 
+![alt text](https://github.com/javadmozaffari/PolypDataset/blob/main/Image/Segmentation.jpg)
 ### Detection
 For the detection task, we evaluated several recent state-of-the-art object detection models. The results indicate that YOLOv9e and YOLO-World deliver the best performance in detecting small polyps. Conversely, YOLOv8x demonstrated comparatively lower effectiveness in identifying small polyps. This evaluation included various types of polyps to thoroughly assess each model's performance.
+![alt text](https://github.com/javadmozaffari/PolypDataset/blob/main/Image/Detection.jpg)
